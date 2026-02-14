@@ -204,15 +204,9 @@ columns with the highest failure rates.
 
 ---
 
-## How to Explain This Project in an Interview
-
-> “I built a customer master data quality framework where I profiled data, defined business rules, implemented automated quality checks using SQL and Python, created governance documentation like a business glossary and data dictionary, and built Power BI dashboards to monitor data quality.”
-
----
-
 ## Author
 
 **Fathima Farha**
-Aspiring Data Steward | Data Quality & Governance Enthusiast
+Aspiring Data Steward 
 
 
