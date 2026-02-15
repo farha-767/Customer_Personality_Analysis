@@ -67,11 +67,11 @@ FROM customers_raw;
 --Logical Birth Year and date Validation
 SELECT *
 FROM customers_raw
-WHERE year_birth<=1920OR year_birth < EXTRACT(YEAR FROM CURRENT_DATE);
+WHERE year_birth<=1920 OR year_birth < EXTRACT(YEAR FROM CURRENT_DATE);
 
 SELECT *
 FROM customers_raw
-WHERE dt_customer > CURRENT_DATE;
+WHERE dt_customer < CURRENT_DATE;
 
 --6. CATEGORICAL CONSISTENCY
 -- analyse categorical fields typo errors or inconsistent naming
